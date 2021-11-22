@@ -89,9 +89,9 @@ class Main {
 	
 	/*
 	 * [EJERCICIO 2](Stack)
-	 * Dada una expresión aritmética en notación infija (operadores entre los 
-	 * operandos, i.e. 2 + 3) transformar en la expresión correspondiente en
-	 * notación postfija (operadores después los operandos, i.e. 2 3 +).
+	 * Dada una expresion aritmetica en notacion infija (operadores entre los 
+	 * operandos, i.e. 2 + 3) transformar en la expresion correspondiente en
+	 * notacion postfija (operadores después los operandos, i.e. 2 3 +).
 	 */
 	public static String postfixNotation(String string) {
 		
