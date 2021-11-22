@@ -89,7 +89,9 @@ class Main {
 	
 	/*
 	 * [EJERCICIO 2](Stack)
-	 * 
+	 * Dada una expresión aritmética en notación infija (operadores entre los 
+	 * operandos, i.e. 2 + 3) transformar en la expresión correspondiente en
+	 * notación postfija (operadores después los operandos, i.e. 2 3 +).
 	 */
 	public static String postfixNotation(String string) {
 		
@@ -142,8 +144,9 @@ class Main {
 	
 	
 	/* [EJERCICIO 3](Queue)
-	 * 
-	 * 
+	 * Intercala el mensaje enviado segun '$' y '@'
+	 * '$' para vaciar el stack y '@' para cambiar los caracteres del stack a mayusculas
+	 * retorna un string con el mensaje modificado
 	 */
 	public static String postfixNotationQueue(String string) {
 		
@@ -223,7 +226,8 @@ class Main {
 	
 	/*
 	 * [EJERCICIO 5]
-	 * 
+	 * suma los tiempos menores que se necesita hasta llegar a tu silla
+	 * Retorna el tiempo que se demora llegado hasta tu silla
 	 */
 	public static int interviewWait(int [] places) {
 		Deque<Integer> dequeue = new LinkedList<Integer>();
@@ -251,7 +255,8 @@ class Main {
 	
 	/*
 	 * [EJERCICIO 6]
-	 * 
+	 * Ordena un arreglo bidimensional usando una cola de prioridad
+	 * retorna una arreglo lineal
 	 */
 	public static int [] mergeSortedList(int [][] array) {
 		PriorityQueue<Integer> prioQueue = new PriorityQueue<Integer>();
@@ -278,7 +283,7 @@ class Main {
 	}
 	
 	
-	// Otro
+	// Otros (Metodos auxiliares para mostrar la salida)
 	public static String arrToString(int [] arr) {
 		
 		String response = "[";
